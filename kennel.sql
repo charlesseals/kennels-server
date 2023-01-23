@@ -65,3 +65,5 @@ INSERT INTO `Animal` VALUES (null, "Curly", "Treatment", "Poodle", 4, 2);
 
 
 SELECT * FROM Animal
+
+SELECT * FROM Animal ORDER BY id DESC;
