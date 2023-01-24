@@ -89,9 +89,6 @@ def get_all_animals():
     return animals
 
 
-
-
-
 def get_animals_by_location(location_id):
 
     with sqlite3.connect("./kennel.sqlite3") as conn:
